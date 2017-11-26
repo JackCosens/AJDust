@@ -1,0 +1,5 @@
+name: AJDust
+main: net.ajgaming.ajdust.Main
+version: 1.0
+commands:
+  givemagical:
