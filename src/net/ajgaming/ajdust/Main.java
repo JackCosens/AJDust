@@ -15,7 +15,8 @@ public class Main extends JavaPlugin {
 			Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY +  "-----------------------------------");
 			
 			Bukkit.getPluginManager().registerEvents(new BlockListener(), this);
-			getCommand("givemagical").setExecutor(new Commands());
+			Bukkit.getPluginManager().registerEvents(new ItemListeners(), this);
+			getCommand("givedust").setExecutor(new Commands());
 		}
 
 	}

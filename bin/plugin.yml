@@ -2,4 +2,10 @@ name: AJDust
 main: net.ajgaming.ajdust.Main
 version: 1.0
 commands:
-  givemagical:
+    givedust:
+        description: Gives commander selected dust.
+        
+permissions:
+    skyblock.givedust:
+        description: Gives commander dust.
+        default: op
